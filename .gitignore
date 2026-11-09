@@ -1,0 +1,16 @@
+# Build products and local run logs (make gpu-all / run_all.ps1 write to build/results/)
+/build/
+*.o
+*.obj
+*.exe
+*.log
+*.out
+*.zip
+
+# Local-only sources
+/private/
+
+# Local editor and operating-system files
+.DS_Store
+.vscode/
+.idea/

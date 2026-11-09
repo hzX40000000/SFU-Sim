@@ -1,0 +1,17 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  cpu-checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+      - name: Verify the published model binaries are unchanged
+        run: cd lib && sha256sum -c libmufu_model.a.sha256 && sha256sum -c mufu_model.lib.sha256
+      - name: Model checks (self test + recorded A100 outputs)
+        run: make test

@@ -1,0 +1,4 @@
+# Normalize source, documentation and sample data across platforms.
+* text=auto eol=lf
+*.a binary
+*.lib binary
