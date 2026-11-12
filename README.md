@@ -98,4 +98,4 @@ docs/           architecture, verification, results/SUMMARY.md
 
 ## License and citation
 
-[MIT](LICENSE). Citation metadata is in [`CITATION.cff`](CITATION.cff).
+[MIT](LICENSE). Citation metadata is in [`CITATION.cff`](CITATION.cff). [arXiv:2611.13879](https://arxiv.org/abs/2611.13879) describes the reverse-engineering method.

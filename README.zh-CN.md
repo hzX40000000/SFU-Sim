@@ -100,4 +100,4 @@ docs/           架构、验证方法、results/SUMMARY.md
 
 ## 许可与引用
 
-[MIT](LICENSE)。引用信息见 [`CITATION.cff`](CITATION.cff)。
+[MIT](LICENSE)。引用信息见 [`CITATION.cff`](CITATION.cff)。[arXiv:2611.13879](https://arxiv.org/abs/2611.13879) 给出逆向方法。
